@@ -1,0 +1,14 @@
+D:\WORK\code\blazor\MealOrdering\MealOrdering.Server.Data\bin\Debug\net7.0\MealOrdering.Server.Data.deps.json
+D:\WORK\code\blazor\MealOrdering\MealOrdering.Server.Data\bin\Debug\net7.0\MealOrdering.Server.Data.runtimeconfig.json
+D:\WORK\code\blazor\MealOrdering\MealOrdering.Server.Data\bin\Debug\net7.0\MealOrdering.Server.Data.dll
+D:\WORK\code\blazor\MealOrdering\MealOrdering.Server.Data\bin\Debug\net7.0\MealOrdering.Server.Data.pdb
+D:\WORK\code\blazor\MealOrdering\MealOrdering.Server.Data\obj\Debug\net7.0\MealOrdering.Server.Data.csproj.AssemblyReference.cache
+D:\WORK\code\blazor\MealOrdering\MealOrdering.Server.Data\obj\Debug\net7.0\MealOrdering.Server.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\WORK\code\blazor\MealOrdering\MealOrdering.Server.Data\obj\Debug\net7.0\MealOrdering.Server.Data.AssemblyInfoInputs.cache
+D:\WORK\code\blazor\MealOrdering\MealOrdering.Server.Data\obj\Debug\net7.0\MealOrdering.Server.Data.AssemblyInfo.cs
+D:\WORK\code\blazor\MealOrdering\MealOrdering.Server.Data\obj\Debug\net7.0\MealOrdering.Server.Data.csproj.CoreCompileInputs.cache
+D:\WORK\code\blazor\MealOrdering\MealOrdering.Server.Data\obj\Debug\net7.0\MealOrdering.Server.Data.dll
+D:\WORK\code\blazor\MealOrdering\MealOrdering.Server.Data\obj\Debug\net7.0\refint\MealOrdering.Server.Data.dll
+D:\WORK\code\blazor\MealOrdering\MealOrdering.Server.Data\obj\Debug\net7.0\MealOrdering.Server.Data.pdb
+D:\WORK\code\blazor\MealOrdering\MealOrdering.Server.Data\obj\Debug\net7.0\MealOrdering.Server.Data.genruntimeconfig.cache
+D:\WORK\code\blazor\MealOrdering\MealOrdering.Server.Data\obj\Debug\net7.0\ref\MealOrdering.Server.Data.dll
