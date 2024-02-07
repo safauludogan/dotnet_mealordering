@@ -1,7 +1,7 @@
 {
   "entryAssembly": "MealOrdering.Client",
   "resources": {
-    "hash": "sha256-GmFHstsBOofB9XOGDfjuXIKMXO+O/Gz7FMBLrveTYDs=",
+    "hash": "sha256-2xivhHR1vi/ZzRZLEFl1XIIEtgty7rNjk+VwzGKWOZg=",
     "runtime": {
       "dotnet.7.0.15.qcnsk0o1gt.js": "sha256-MHuxwxeVFybuBBTAWeZrvoStZpW+H4ThSaRcFvrfqXM=",
       "dotnet.timezones.blat": "sha256-aHk3Pm2JXopn6UPLJtovAqIdIk8GyIMzGm450cli9UE=",
@@ -203,12 +203,12 @@
       "mscorlib.dll": "sha256-fVDx40u1vKqhdy509hDF73SIx6C5q5Mst93LwfZWVQY=",
       "netstandard.dll": "sha256-ohOFXxRJKiyPbitdA1y5ebD9fSAGELDRVmhDM2nVdtA=",
       "System.Private.CoreLib.dll": "sha256-7Y6AhJbgMptcdman3NtSEbcJV520wGmyxB8QvZwrUmc=",
-      "MealOrdering.Shared.dll": "sha256-6Q/uhv1LI9eFYDKOKn1rFHEoqBnao/25PtMRWS/2Cbc=",
-      "MealOrdering.Client.dll": "sha256-iUiEFAh2CkWVAkbvbiuUeBVWyp57SfwOaWGXsSQu+cQ="
+      "MealOrdering.Shared.dll": "sha256-Z9oLRP0IZJknqjqptG+zOnmnbBPtEPAPvbjKGL/DbPM=",
+      "MealOrdering.Client.dll": "sha256-U0r8ObyjZPDjD5EAVAf7JXWxxpQZzcy68M9JYX2sx9s="
     },
     "pdb": {
-      "MealOrdering.Shared.pdb": "sha256-xd7w0Dpnf9Omz1vQ9uyqwv8dttnEY8OX410dNtlZ0CY=",
-      "MealOrdering.Client.pdb": "sha256-5MlE82/fNPBUzTV8VVL047WxLbeBVeTSWXmcOTnTZIc="
+      "MealOrdering.Shared.pdb": "sha256-NaHM7WVYzqrfMlp6wpPb885z7s2f+57xOWqIenlIpow=",
+      "MealOrdering.Client.pdb": "sha256-oaGg5i1jTdJ30hKYaAWfol8iuj7rrjRX/TVHIzzafDQ="
     },
     "runtimeAssets": {
       "dotnet.wasm": {

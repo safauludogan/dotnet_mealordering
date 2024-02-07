@@ -841,3 +841,4 @@ D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_f
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Blazored.Modal.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\Blazored.Modal.dll
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\compressed\7ee7uygg8e.gz
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\MealOrdering.Client.sourcelink.json

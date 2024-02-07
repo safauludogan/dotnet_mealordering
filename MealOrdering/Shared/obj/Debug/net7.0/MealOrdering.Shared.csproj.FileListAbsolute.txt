@@ -9,3 +9,4 @@ D:\WORK\code\blazor\MealOrdering\MealOrdering\Shared\obj\Debug\net7.0\MealOrderi
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Shared\obj\Debug\net7.0\refint\MealOrdering.Shared.dll
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Shared\obj\Debug\net7.0\MealOrdering.Shared.pdb
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Shared\obj\Debug\net7.0\ref\MealOrdering.Shared.dll
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Shared\obj\Debug\net7.0\MealOrdering.Shared.sourcelink.json

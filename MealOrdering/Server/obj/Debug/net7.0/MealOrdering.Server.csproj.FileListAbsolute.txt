@@ -62,3 +62,4 @@ D:\WORK\code\blazor\MealOrdering\MealOrdering\Server\bin\Debug\net7.0\Npgsql.dll
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Server\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Server\bin\Debug\net7.0\MealOrdering.Server.Data.dll
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Server\bin\Debug\net7.0\MealOrdering.Server.Data.pdb
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Server\obj\Debug\net7.0\MealOrdering.Server.sourcelink.json

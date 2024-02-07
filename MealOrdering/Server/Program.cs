@@ -17,11 +17,16 @@ builder.Services.AddBlazoredModal();
 builder.Services.ConfigureMapping();
 
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IOrderService,OrderService>();
+builder.Services.AddScoped<ISupplierService, SupplierService>();
+builder.Services.AddScoped<IValidationService, ValidationService>();
+
 builder.Services.AddDbContext<DataContext>(opt =>
 {
 	opt.UseNpgsql("User ID=postgres;password=sas;Host=localhost;Port=5432;Database=mealordering");
 	opt.EnableSensitiveDataLogging();
 });
+
 
 var app = builder.Build();
 
