@@ -1,0 +1,11 @@
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Shared\bin\Debug\net7.0\MealOrdering.Shared.deps.json
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Shared\bin\Debug\net7.0\MealOrdering.Shared.dll
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Shared\bin\Debug\net7.0\MealOrdering.Shared.pdb
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Shared\obj\Debug\net7.0\MealOrdering.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Shared\obj\Debug\net7.0\MealOrdering.Shared.AssemblyInfoInputs.cache
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Shared\obj\Debug\net7.0\MealOrdering.Shared.AssemblyInfo.cs
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Shared\obj\Debug\net7.0\MealOrdering.Shared.csproj.CoreCompileInputs.cache
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Shared\obj\Debug\net7.0\MealOrdering.Shared.dll
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Shared\obj\Debug\net7.0\refint\MealOrdering.Shared.dll
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Shared\obj\Debug\net7.0\MealOrdering.Shared.pdb
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Shared\obj\Debug\net7.0\ref\MealOrdering.Shared.dll
