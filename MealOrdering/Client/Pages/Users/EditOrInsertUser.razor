@@ -1,0 +1,132 @@
+﻿@page "/users/add"
+@page "/users/edit/{UserId:guid}"
+
+
+<h3>@pageTitle</h3>
+
+
+<EditForm Model="@userModel" OnValidSubmit="editOrUpdate">
+	<DataAnnotationsValidator />
+
+	<div class="form-row">
+
+		<div class="form-group col-md-6">
+			<label>First Name</label>
+			<InputText @bind-Value="@userModel.FirstName" class="form-control" />
+			<ValidationMessage For="@(()=>userModel.FirstName)" />
+		</div>
+
+		<div class="form-group col-md-6">
+			<label>Last Name</label>
+			<InputText @bind-Value="@userModel.LastName" class="form-control" />
+			<ValidationMessage For="@(()=>userModel.LastName)" />
+		</div>
+
+	</div>
+
+	<div class="form-row">
+
+		<div class="form-group col-md-6">
+			<label>E-Mail Address</label>
+			<InputText @bind-Value="@userModel.EmailAddress" class="form-control" />
+			<ValidationMessage For="@(()=>userModel.EmailAddress)" />
+		</div>
+
+		<div class="form-group col-md-6">
+			<label>Password</label>
+			<InputText @bind-Value="@userModel.Password" class="form-control" type="password" />
+			<ValidationMessage For="@(()=>userModel.Password)" />
+		</div>
+
+	</div>
+
+	<div class="form-row">
+
+		<div class="form-group col-md-6">
+			<div class="form-check">
+				<InputCheckbox @bind-Value="userModel.IsActive" class="form-check-input" id="chUserStatus" />
+				<label for="chUserStatus" class="form-check-label">User Status</label>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="form-group">
+		<SaveButtonComponent Caption="Save" />
+		<CancelButtonComponent OnClick="goBackUserList" />
+	</div>
+
+</EditForm>
+
+
+
+@code {
+
+	[Parameter]
+	public Guid? UserId { get; set; }
+
+	private UserDto userModel = new UserDto();
+
+	[Inject]
+	public HttpClient HttpClient { get; set; }
+
+	[Inject]
+	ModalManager ModalManager { get; set; }
+
+	private string pageTitle = "Create User";
+
+	[Inject]
+	NavigationManager NavigationManager { get; set; }
+
+
+	protected async override Task OnInitializedAsync()
+	{
+		if (UserId != null && UserId != Guid.Empty)
+		{
+			try
+			{
+				userModel = await HttpClient.GetServiceResponseAsync<UserDto>($"api/User/GetUserById/{UserId}", true);
+			}
+			catch (ApiException ex)
+			{
+				await ModalManager.ShowMessageAsync("Api Exception", ex.Message);
+			}
+			catch (Exception ex)
+			{
+				await ModalManager.ShowMessageAsync("Exception", ex.Message);
+			}
+		}
+		StateHasChanged();
+	}
+
+	private async Task editOrUpdate()
+	{
+		try
+		{
+			string url = "api/User/CreateUser";
+			if (UserId != null && UserId != Guid.Empty)
+			{
+				url = "api/User/UpdateUser";
+				pageTitle = "Edit User";
+
+			}
+
+			userModel = await HttpClient.PostGetServiceResponseAsync<UserDto, UserDto>(url, userModel, true);
+
+			goBackUserList();
+		}
+		catch (ApiException ex)
+		{
+			await ModalManager.ShowMessageAsync("Api Exception", ex.Message);
+		}
+		catch (Exception ex)
+		{
+			await ModalManager.ShowMessageAsync("Exception", ex.Message);
+		}
+	}
+
+	private void goBackUserList()
+	{
+		NavigationManager.NavigateTo("/userlist");
+	}
+}

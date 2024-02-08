@@ -1,5 +1,14 @@
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\MealOrdering.Client.csproj.AssemblyReference.cache
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\MealOrdering.Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\MealOrdering.Client.AssemblyInfoInputs.cache
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\MealOrdering.Client.AssemblyInfo.cs
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\MealOrdering.Client.csproj.CoreCompileInputs.cache
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\MealOrdering.Client.MvcApplicationPartsAssemblyInfo.cache
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\MealOrdering.Client.sourcelink.json
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Blazored.LocalStorage.dll
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Blazored.Modal.dll
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.15.qcnsk0o1gt.js
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm
@@ -11,6 +20,7 @@ D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_f
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\MealOrdering.Shared.dll
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\MealOrdering.Shared.pdb
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll
@@ -220,7 +230,6 @@ D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_f
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.Quic.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.Local.dll.gz
-D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Specialized.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll.gz
@@ -230,7 +239,9 @@ D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_f
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Process.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlSerializer.dll.gz
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.ObjectModel.dll.gz
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Private.DataContractSerialization.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Console.dll.gz
@@ -243,6 +254,7 @@ D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_f
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\icudt_no_CJK.dat.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encodings.Web.dll.gz
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Blazored.Modal.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Text.RegularExpressions.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll.gz
@@ -288,7 +300,6 @@ D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_f
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebProxy.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll.gz
-D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll.gz
@@ -340,6 +351,7 @@ D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_f
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Claims.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Net.HttpListener.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Data.dll.gz
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tools.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Annotations.dll.gz
@@ -347,6 +359,7 @@ D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_f
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Serialization.dll.gz
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Blazored.LocalStorage.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Text.Json.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tracing.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll.gz
@@ -391,8 +404,8 @@ D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_f
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.AppContext.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll.gz
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.Brotli.dll.gz
-D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.dll.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XDocument.dll.gz
@@ -409,8 +422,11 @@ D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\se
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\MealOrdering.Client.staticwebassets.runtime.json
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\MealOrdering.Client.dll
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\MealOrdering.Client.pdb
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\Blazored.LocalStorage.dll
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\Blazored.Modal.dll
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Authorization.dll
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\Microsoft.AspNetCore.Components.WebAssembly.dll
@@ -608,12 +624,6 @@ D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\icudt_EFIG
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\icudt_no_CJK.dat
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\MealOrdering.Shared.dll
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\MealOrdering.Shared.pdb
-D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\MealOrdering.Client.csproj.AssemblyReference.cache
-D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\MealOrdering.Client.GeneratedMSBuildEditorConfig.editorconfig
-D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\MealOrdering.Client.AssemblyInfoInputs.cache
-D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\MealOrdering.Client.AssemblyInfo.cs
-D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\MealOrdering.Client.csproj.CoreCompileInputs.cache
-D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\MealOrdering.Client.MvcApplicationPartsAssemblyInfo.cache
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\blazor.build.boot-extension.json
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\blazor.boot.json
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\staticwebassets.build.json
@@ -628,12 +638,15 @@ D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\scopedcss\
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\scopedcss\bundle\MealOrdering.Client.styles.css
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\scopedcss\projectbundle\MealOrdering.Client.bundle.scp.css
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\compressed\tbhoa7d733.gz
-D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\compressed\eeymu5ohqf.gz
-D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\compressed\3vnj5ooyc0.gz
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\compressed\pmpivb3p0l.gz
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\compressed\7ee7uygg8e.gz
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\compressed\xwwwejz9g8.gz
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\compressed\544v8jua3y.gz
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\compressed\5qxtx71w4b.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\compressed\6bk1dz7wgj.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\compressed\xufld9l5v0.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\compressed\ccm8hmhvut.gz
-D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\compressed\xy7edbim03.gz
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\compressed\ocjvxnq9gp.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\compressed\el9dqyi1si.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\compressed\2tyxjuuazw.gz
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\compressed\q3lqxigw2u.gz
@@ -837,8 +850,3 @@ D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\MealOrderi
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\refint\MealOrdering.Client.dll
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\MealOrdering.Client.pdb
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\ref\MealOrdering.Client.dll
-D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Blazored.Modal.dll
-D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Blazored.Modal.dll.gz
-D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\Blazored.Modal.dll
-D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\compressed\7ee7uygg8e.gz
-D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\MealOrdering.Client.sourcelink.json

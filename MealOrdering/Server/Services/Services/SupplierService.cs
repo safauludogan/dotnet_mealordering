@@ -5,7 +5,6 @@ using MealOrdering.Server.Data.Models;
 using MealOrdering.Server.Services.Infasracture;
 using MealOrdering.Shared.DTO;
 using Microsoft.EntityFrameworkCore;
-using System.Data.Common;
 
 namespace MealOrdering.Server.Services.Services
 {

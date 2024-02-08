@@ -1,0 +1,85 @@
+﻿@page "/login"
+
+
+@layout MealOrdering.Client.Shared.EmptyLayout
+
+<div class="container-fluid h-100">
+	<div class="row justify-content-center align-items-center h-100">
+		<div class="col col-sm-6 col-md-6 col-lg-4 col-xl-3">
+			<EditForm Model="@userLoginRequest" OnValidSubmit="loginProcess">
+				<DataAnnotationsValidator />
+				<div class="form-group">
+					<input @bind-value="userLoginRequest.Email" class="form-control form-control-lg" type="text" placeholder="E-Mail Address" />
+				</div>
+				<div class="form-group">
+					<input @bind-value="userLoginRequest.Password" class="form-control form-control-lg" type="password" placeholder="Password" />
+				</div>
+				<div class="form-group">
+					<button class="btn btn-info btn-block">Login</button>
+				</div>
+			</EditForm>
+		</div>
+	</div>
+</div>
+
+
+
+@code {
+
+	private UserLoginRequestDto userLoginRequest = new UserLoginRequestDto();
+
+	[Inject]
+	HttpClient Client { get; set; }
+
+	[Inject]
+	ModalManager modalManager { get; set; }
+
+	[Inject]
+	NavigationManager NavManager { get; set; }
+
+	[Inject]
+	ILocalStorageService localStorageService { get; set; }
+
+	[Inject]
+	AuthenticationStateProvider authenticationStateProvider { get; set; }
+
+	private async Task loginProcess()
+	{
+		try
+		{
+			var httpReqRes = await Client.PostAsJsonAsync("api/User/Login", userLoginRequest);
+
+			if (httpReqRes.IsSuccessStatusCode)
+			{
+
+				var res = await httpReqRes.Content.ReadFromJsonAsync<ServiceResponse<UserLoginResponseDto>>();
+
+				if (res.IsSuccess)
+				{
+					await localStorageService.SetItemAsStringAsync("token", res.Value.ApiToken);
+					await localStorageService.SetItemAsStringAsync("email", res.Value.User.EmailAddress);
+
+					(authenticationStateProvider as AuthStateProvider)?.NotifyUserLogin(res.Value.User.EmailAddress);
+
+					Client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", res.Value.ApiToken);
+
+					NavManager.NavigateTo("/");
+				}
+				else
+				{
+					await modalManager.ShowMessageAsync("Login Error!", res.Message);
+				}
+			}
+			else
+			{
+				await modalManager.ShowMessageAsync("Login Error!", httpReqRes.StatusCode.ToString());
+			}
+
+		}
+		catch (Exception ex)
+		{
+			await modalManager.ShowMessageAsync("Login Error!", ex.Message);
+		}
+	}
+
+}

@@ -182,6 +182,12 @@ namespace MealOrdering.Server.Data.Migrations
                         .HasColumnType("character varying")
                         .HasColumnName("last_name");
 
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying")
+                        .HasColumnName("password");
+
                     b.HasKey("Id")
                         .HasName("pk_user_id");
 

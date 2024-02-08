@@ -13,13 +13,13 @@ namespace MealOrdering.Server.Services.Services
 
 		private readonly DataContext _context;
 		private readonly IMapper _mapper;
-		private readonly IValidationService validationService;
+		private readonly IValidationService _validationService;
 
 		public OrderService(DataContext context, IMapper mapper, IValidationService validationService)
 		{
 			_context = context;
 			_mapper = mapper;
-			this.validationService = validationService;
+			_validationService = validationService;
 		}
 
 
@@ -43,6 +43,13 @@ namespace MealOrdering.Server.Services.Services
 			await _context.SaveChangesAsync();
 		}
 
+		public async Task<OrderDto> GetOrderByIdAsync(Guid Id)
+		{
+			return await _context.Orders.Where(i => i.Id == Id)
+					.ProjectTo<OrderDto>(_mapper.ConfigurationProvider)
+					.FirstOrDefaultAsync();
+		}
+
 		public async  Task<List<OrderDto>> GetOrdersAsync(DateTime OrderDate)
 		{
 			return await _context.Orders.Include(i => i.Supplier)
@@ -59,13 +66,38 @@ namespace MealOrdering.Server.Services.Services
 				throw new Exception("Order not found");
 
 
-			if (!validationService.HasPermission(dbOrder.CreatedUserId))
+			if (!_validationService.HasPermission(dbOrder.CreatedUserId))
 				throw new Exception("You cannot change the order unless you created");
 
 			_mapper.Map(Order, dbOrder);
 			await _context.SaveChangesAsync();
 
 			return _mapper.Map<OrderDto>(dbOrder);
+		}
+
+		public async Task<OrderItemsDto> GetOrderItemsByIdAsync(Guid Id)
+		{
+			return await _context.OrderItems.Include(i => i.Order).Where(i => i.Id == Id)
+					  .ProjectTo<OrderItemsDto>(_mapper.ConfigurationProvider)
+					  .FirstOrDefaultAsync();
+		}
+
+		public async Task DeleteOrderItemAsync(Guid OrderItemId)
+		{
+			var orderItem = await _context.OrderItems.FirstOrDefaultAsync(i => i.Id == OrderItemId);
+			if (orderItem == null)
+				throw new Exception("Sub order not found");
+
+			_context.OrderItems.Remove(orderItem);
+
+			await _context.SaveChangesAsync();
+		}
+		public async Task<List<OrderItemsDto>> GetOrderItemsAsync(Guid OrderId)
+		{
+			return await _context.OrderItems.Where(i => i.OrderId == OrderId)
+					  .ProjectTo<OrderItemsDto>(_mapper.ConfigurationProvider)
+					  .OrderBy(i => i.CreateDate)
+					  .ToListAsync();
 		}
 	}
 }

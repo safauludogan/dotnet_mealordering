@@ -1,0 +1,38 @@
+﻿@page "/logout"
+
+
+
+
+@code {
+
+	[Inject]
+	HttpClient Client { get; set; }
+
+	[CascadingParameter]
+	public Task<AuthenticationState> AuthState { get; set; }
+
+	[Inject]
+	ILocalStorageService localStorageService { get; set; }
+
+
+	[Inject]
+	AuthenticationStateProvider authenticationStateProvider { get; set; }
+
+	[Inject]
+	NavigationManager NavManager { get; set; }
+
+	protected async override Task OnInitializedAsync()
+	{
+		await localStorageService.RemoveItemAsync("token");
+		await localStorageService.RemoveItemAsync("email");
+
+		(authenticationStateProvider as AuthStateProvider)?.NotifyUserLogout();
+
+		Client.DefaultRequestHeaders.Authorization = null;
+
+
+
+		NavManager.NavigateTo("/login");
+	}
+
+}

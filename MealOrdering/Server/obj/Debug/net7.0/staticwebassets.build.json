@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QV4RGPbQPGC1n9KE2arQmRHCWX8vOvrLoU8ER63eybk=",
+  "Hash": "giF0SCunfdFZ9d9tvKvWN5Ps6+BYiQdshCthAjCALSw=",
   "Source": "MealOrdering.Server",
   "BasePath": "_content/MealOrdering.Server",
   "Mode": "Default",
@@ -103,6 +103,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.14\\build\\net7.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "SourceId": "MealOrdering.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\asus\\.nuget\\packages\\blazored.localstorage\\4.4.0\\lib\\net7.0\\Blazored.LocalStorage.dll"
     },
     {
       "Identity": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Blazored.Modal.dll",
@@ -330,7 +349,26 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.14\\lib\\net7.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.15\\lib\\net7.0\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
+      "Identity": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "SourceId": "MealOrdering.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\7.0.15\\lib\\net7.0\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -349,7 +387,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.14\\lib\\net7.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.15\\lib\\net7.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -425,7 +463,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.14\\lib\\net7.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.15\\lib\\net7.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -4304,25 +4342,6 @@
       "OriginalItemSpec": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Transactions.Local.dll"
     },
     {
-      "Identity": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\obj\\Debug\\net7.0\\compressed\\3vnj5ooyc0.gz",
-      "SourceId": "MealOrdering.Client",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
-    },
-    {
       "Identity": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\obj\\Debug\\net7.0\\compressed\\3zhrdz0eqb.gz",
       "SourceId": "MealOrdering.Client",
       "SourceType": "Project",
@@ -4494,6 +4513,25 @@
       "OriginalItemSpec": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Xml.XmlSerializer.dll"
     },
     {
+      "Identity": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\obj\\Debug\\net7.0\\compressed\\544v8jua3y.gz",
+      "SourceId": "MealOrdering.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
+    },
+    {
       "Identity": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\obj\\Debug\\net7.0\\compressed\\54ytvv8y7g.gz",
       "SourceId": "MealOrdering.Client",
       "SourceType": "Project",
@@ -4511,6 +4549,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.ObjectModel.dll"
+    },
+    {
+      "Identity": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\obj\\Debug\\net7.0\\compressed\\5qxtx71w4b.gz",
+      "SourceId": "MealOrdering.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\obj\\Debug\\net7.0\\compressed\\5rsj3vic42.gz",
@@ -5615,25 +5672,6 @@
       "OriginalItemSpec": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.FileSystemGlobbing.dll"
     },
     {
-      "Identity": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\obj\\Debug\\net7.0\\compressed\\eeymu5ohqf.gz",
-      "SourceId": "MealOrdering.Client",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
-    },
-    {
       "Identity": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\obj\\Debug\\net7.0\\compressed\\ejltr8ij15.gz",
       "SourceId": "MealOrdering.Client",
       "SourceType": "Project",
@@ -6603,6 +6641,25 @@
       "OriginalItemSpec": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Data.dll"
     },
     {
+      "Identity": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\obj\\Debug\\net7.0\\compressed\\ocjvxnq9gp.gz",
+      "SourceId": "MealOrdering.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
       "Identity": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\obj\\Debug\\net7.0\\compressed\\oee14x12ux.gz",
       "SourceId": "MealOrdering.Client",
       "SourceType": "Project",
@@ -6734,6 +6791,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Xml.Serialization.dll"
+    },
+    {
+      "Identity": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\obj\\Debug\\net7.0\\compressed\\pmpivb3p0l.gz",
+      "SourceId": "MealOrdering.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll"
     },
     {
       "Identity": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\obj\\Debug\\net7.0\\compressed\\pnignnb67g.gz",
@@ -7572,6 +7648,25 @@
       "OriginalItemSpec": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
+      "Identity": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\obj\\Debug\\net7.0\\compressed\\xwwwejz9g8.gz",
+      "SourceId": "MealOrdering.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
       "Identity": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\obj\\Debug\\net7.0\\compressed\\xx24xjua17.gz",
       "SourceId": "MealOrdering.Client",
       "SourceType": "Project",
@@ -7589,25 +7684,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.IO.Compression.Brotli.dll"
-    },
-    {
-      "Identity": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\obj\\Debug\\net7.0\\compressed\\xy7edbim03.gz",
-      "SourceId": "MealOrdering.Client",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\obj\\Debug\\net7.0\\compressed\\xzqer8gm4b.gz",

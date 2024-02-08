@@ -10,6 +10,12 @@
 }
 else
 {
+	<div class="btn-group">
+		<div class="container">
+			<AddNewButtonComponent Caption="Create User" OnClick="goCreateUserPage"></AddNewButtonComponent>
+		</div>
+	</div>
+
 	<table class="table table-hover table-sm">
 		<thead>
 			<tr>
@@ -18,18 +24,25 @@ else
 				<th scope="col">E-Mail Adres</th>
 				<th scope="col">Oluşturulma Tarihi</th>
 				<th scope="col">Durum</th>
+				<th scope="col">#</th>
 			</tr>
 		</thead>
 		<tbody>
-
 			@foreach (var user in userList)
 			{
+				string spanClass = "badge badge-pill badge-" + (user.IsActive ? "success" : "danger");
+
 				<tr>
 					<td>@user.Id</td>
 					<td>@user.FullName</td>
 					<td>@user.EmailAddress</td>
 					<td>@user.CreatedDate</td>
-					<td>@user.IsActive</td>
+					@*<td>@user.IsActive</td>*@
+					<td><span class="@spanClass">@(user.IsActive ? "Active" : "Passive")</span></td>
+					<td>
+						<CustomEditButtonComponent IsSmall="true" Caption="" IsOutline="true" OnClick="@(()=>goUpdateUserPage(user.Id))" />
+						<DeleteButtonComponent IsSmall="true" Caption="" IsOutline="true" OnClick="@(()=>deleteUser(user.Id))" />
+					</td>
 				</tr>
 			}
 

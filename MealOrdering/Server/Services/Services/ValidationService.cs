@@ -1,5 +1,4 @@
 ﻿using MealOrdering.Server.Services.Infasracture;
-using Microsoft.AspNetCore.Http;
 using System.Security.Claims;
 
 namespace MealOrdering.Server.Services.Services

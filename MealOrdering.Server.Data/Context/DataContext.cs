@@ -29,6 +29,7 @@ namespace MealOrdering.Server.Data.Context
 				.HasDefaultValueSql("UUID_GENERATE_V4()").IsRequired();
 
 				entity.Property(i => i.FirstName).HasColumnName("first_name").HasColumnType("character varying").HasMaxLength(100);
+				entity.Property(i => i.Password).HasColumnName("password").HasColumnType("character varying").HasMaxLength(100);
 				entity.Property(i => i.LastName).HasColumnName("last_name").HasColumnType("character varying").HasMaxLength(100);
 				entity.Property(i => i.EmailAddress).HasColumnName("email_address").HasColumnType("character varying").HasMaxLength(100);
 				
