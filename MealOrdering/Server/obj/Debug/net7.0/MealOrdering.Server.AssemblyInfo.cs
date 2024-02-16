@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MealOrdering.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffdd591a7d06d0a4f405216f8f331b37a924bd41")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4e6c9fcc9308134d7501b7117e00ba9fe21b70e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MealOrdering.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MealOrdering.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -30,7 +30,7 @@ namespace MealOrdering.Server.Controllers
 		}
 
 
-		[HttpGet("Suppliers")]
+		[HttpGet("[action]")]
 		public async Task<ServiceResponse<List<SupplierDto>>> GetSuppliers()
 		{
 			return new ServiceResponse<List<SupplierDto>>()

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "MUt0LnGKpLCmYKfu45aqUOyMy91vVh0/WLIJx8ou/73gCH77jjJuhOT5+/rY5Fr3BuvuMo5dbGWMAQ0TYvQ5jw==",
+  "dgSpecHash": "fVv6Qy7muuv50/KuZJT3QapyOWMZI7D81hRRPj1g8/APv7APaT9RFWsbrtxKdHibK5lYqPHmlIXyfeW2+xveXw==",
   "success": true,
   "projectFilePath": "D:\\WORK\\code\\blazor\\MealOrdering\\MealOrdering\\Client\\MealOrdering.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\blazored.localstorage\\4.4.0\\blazored.localstorage.4.4.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\blazored.modal\\7.2.0\\blazored.modal.7.2.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\blazored.typeahead\\4.7.0\\blazored.typeahead.4.7.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.15\\microsoft.aspnetcore.authorization.7.0.15.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.15\\microsoft.aspnetcore.components.7.0.15.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.15\\microsoft.aspnetcore.components.analyzers.7.0.15.nupkg.sha512",

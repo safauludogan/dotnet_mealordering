@@ -73,3 +73,4 @@ D:\WORK\code\blazor\MealOrdering\MealOrdering\Server\obj\Debug\net7.0\refint\Mea
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Server\obj\Debug\net7.0\MealOrdering.Server.pdb
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Server\obj\Debug\net7.0\MealOrdering.Server.genruntimeconfig.cache
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Server\obj\Debug\net7.0\ref\MealOrdering.Server.dll
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Server\bin\Debug\net7.0\Blazored.Typeahead.dll

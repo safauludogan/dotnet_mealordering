@@ -15,6 +15,7 @@
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\7.0.15\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\7.0.15\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props')" />
+    <Import Project="$(NuGetPackageRoot)blazored.typeahead\4.7.0\buildTransitive\Blazored.Typeahead.props" Condition="Exists('$(NuGetPackageRoot)blazored.typeahead\4.7.0\buildTransitive\Blazored.Typeahead.props')" />
     <Import Project="$(NuGetPackageRoot)blazored.modal\7.2.0\buildTransitive\Blazored.Modal.props" Condition="Exists('$(NuGetPackageRoot)blazored.modal\7.2.0\buildTransitive\Blazored.Modal.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">

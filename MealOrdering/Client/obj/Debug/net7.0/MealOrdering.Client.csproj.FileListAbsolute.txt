@@ -850,3 +850,7 @@ D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\MealOrderi
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\refint\MealOrdering.Client.dll
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\MealOrdering.Client.pdb
 D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\ref\MealOrdering.Client.dll
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Blazored.Typeahead.dll
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\wwwroot\_framework\Blazored.Typeahead.dll.gz
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\bin\Debug\net7.0\Blazored.Typeahead.dll
+D:\WORK\code\blazor\MealOrdering\MealOrdering\Client\obj\Debug\net7.0\compressed\af00hvaj06.gz

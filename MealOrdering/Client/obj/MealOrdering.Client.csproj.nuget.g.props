@@ -18,6 +18,7 @@
     <Import Project="$(NuGetPackageRoot)microsoft.net.illink.tasks\7.0.100-1.23211.1\build\Microsoft.NET.ILLink.Tasks.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.illink.tasks\7.0.100-1.23211.1\build\Microsoft.NET.ILLink.Tasks.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.net.illink.analyzers\7.0.100-1.23211.1\build\Microsoft.NET.ILLink.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.illink.analyzers\7.0.100-1.23211.1\build\Microsoft.NET.ILLink.Analyzers.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly\7.0.14\build\net7.0\Microsoft.AspNetCore.Components.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly\7.0.14\build\net7.0\Microsoft.AspNetCore.Components.WebAssembly.props')" />
+    <Import Project="$(NuGetPackageRoot)blazored.typeahead\4.7.0\buildTransitive\Blazored.Typeahead.props" Condition="Exists('$(NuGetPackageRoot)blazored.typeahead\4.7.0\buildTransitive\Blazored.Typeahead.props')" />
     <Import Project="$(NuGetPackageRoot)blazored.modal\7.2.0\buildTransitive\Blazored.Modal.props" Condition="Exists('$(NuGetPackageRoot)blazored.modal\7.2.0\buildTransitive\Blazored.Modal.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">

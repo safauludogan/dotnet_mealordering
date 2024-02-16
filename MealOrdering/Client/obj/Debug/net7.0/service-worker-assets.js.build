@@ -61,7 +61,7 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-gTRZ4wPnK721OZI+KAu+rNRUw9lWDZt+LnVFw\/D4nE4=",
+      "hash": "sha256-G9e4u3MhswC8BPzqTIuFP50voKIlipEJuqnlT4x7L48=",
       "url": "index.html"
     },
     {
@@ -83,6 +83,10 @@
     {
       "hash": "sha256-OkL\/zDQTP6kkz+pR8Lki2Pljk2hwf99nXDSmE1Id0cY=",
       "url": "_framework\/Blazored.Modal.dll"
+    },
+    {
+      "hash": "sha256-0cq+AP7JH6JLYVm2dkmhZ4IIP65fMqy\/jFQ5mtrpkJY=",
+      "url": "_framework\/Blazored.Typeahead.dll"
     },
     {
       "hash": "sha256-qItsrcGUYsmf5k\/rs5T3s0\/5TooOLLkE7D3h\/jaADeA=",
@@ -877,24 +881,32 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-cYazc88WnOlJcwyV34w1HBxhED6Rzk38rG3TQW\/4tpw=",
+      "hash": "sha256-CYWUbF2Htm0ZAtUdylfHGJi2TADcs+F95ILQOX\/QGwk=",
       "url": "_framework\/MealOrdering.Shared.dll"
     },
     {
-      "hash": "sha256-reF5M1NZyCeFQMxV9Vo5F24vYqhClcqf6PZPHO+l8uU=",
+      "hash": "sha256-cjV5stbWEPE2e5pji3fZWlfAJaMsPJ08H+1c3XMlfFk=",
       "url": "_framework\/MealOrdering.Shared.pdb"
     },
     {
-      "hash": "sha256-ZYC+k6IMydIO7Q3HEmZ3UVkBtuiDRBZnsjvBBZa9IaM=",
+      "hash": "sha256-fqYpt41wiDXtqcSFMtIjcV6y5HRWu0YwoY8lYUSuLis=",
       "url": "_framework\/MealOrdering.Client.dll"
     },
     {
-      "hash": "sha256-1ngl1m0K+1MY20VhgnHV5uevAxuvGSOlpsJ5I8sxA7U=",
+      "hash": "sha256-taXHsAwFOwuaVua3llW5nVgqbe1IZtSk7PgBQJfnvbg=",
       "url": "_framework\/MealOrdering.Client.pdb"
     },
     {
-      "hash": "sha256-JIoDoDdcUnPbk2\/LZGUW4rLQUkLdpR\/VUVnZnL9AkZQ=",
+      "hash": "sha256-e0OiaAjDJ9Vi+D5zl0gI7o7YjPjhp5uxsk3SsuRNofA=",
       "url": "_framework\/blazor.boot.json"
+    },
+    {
+      "hash": "sha256-J3yBtIuvF38lccTVcUS7ScUgk93ATgKN6kbpbFM9JA0=",
+      "url": "_content\/Blazored.Typeahead\/blazored-typeahead.css"
+    },
+    {
+      "hash": "sha256-ClIzMmBI5Nozgt7KRG3K3u45r2pMtn\/X9Vx2UeudOPU=",
+      "url": "_content\/Blazored.Typeahead\/blazored-typeahead.js"
     },
     {
       "hash": "sha256-IrzJsVGzLK50nJ3TlHWBc+pU8QRVP4T2OsHHGqenL\/k=",
@@ -905,5 +917,5 @@
       "url": "_content\/Blazored.Modal\/Blazored.Modal.bundle.scp.css"
     }
   ],
-  "version": "0v4pNXBe"
+  "version": "boq2HVXP"
 };
